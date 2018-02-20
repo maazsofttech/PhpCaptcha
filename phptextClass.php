@@ -5,7 +5,7 @@ class phptextClass
 	public function phptext($text,$textColor,$backgroundColor='',$fontSize,$imgWidth,$imgHeight,$dir,$fileName)
 	{
 		/* settings */
-		$font = './calibri.ttf';/*define font*/
+		$font = 'calibri.ttf';/*define font*/
 		$textColor=$this->hexToRGB($textColor);	
 		
 		$im = imagecreatetruecolor($imgWidth, $imgHeight);	
