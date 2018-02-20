@@ -1,14 +1,11 @@
 <?php
-/*phptext class, version 1.0
-created by www.w3schools.in (Gautam kumar)
-April 26, 2014
-*/
+ 
 class phptextClass
 {	
 	public function phptext($text,$textColor,$backgroundColor='',$fontSize,$imgWidth,$imgHeight,$dir,$fileName)
 	{
 		/* settings */
-		$font = './calibri.ttf';/*define font*/
+		$font = 'calibri.ttf';/*define font*/
 		$textColor=$this->hexToRGB($textColor);	
 		
 		$im = imagecreatetruecolor($imgWidth, $imgHeight);	
