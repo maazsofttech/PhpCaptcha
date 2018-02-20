@@ -24,8 +24,7 @@ function refreshCaptcha(){
 </head>
 <body>
 <div id="frame0">
-  <h1>PHP Secure Professional Captcha Demo.</h1>
-  <p>More tutorials <a href="http://www.w3schools.in/">www.w3schools.in</a></p>
+  
 </div>
 <br>
 
