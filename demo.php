@@ -14,7 +14,7 @@ if(isset($_POST['Submit'])){
 <head>
 <meta charset="utf-8">
 <title>PHP Secure Professional Captcha.</title>
-<link href="./css/style.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 <script type='text/javascript'>
 function refreshCaptcha(){
 	var img = document.images['captchaimg'];
